@@ -18,5 +18,5 @@ app.get((req, res, next, error) => {
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
-  `***Server listening on port ${port}])`;
+  `***Server listening on port ${port}***`;
 });
